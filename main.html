@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multicolor navbar -exercise 4</title>
+</head>
+<body>
+    <!-- creat a a multicolor navbar with 4 links using html and css only. -->
+
+    <style>
+        nav {
+            background-color: #333;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            flex: 1;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 14px 16px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li:nth-child(1) a {
+            background-color: #4CAF50; 
+        }
+
+        nav ul li:nth-child(2) a {
+            background-color: #2196F3; 
+        }
+
+        nav ul li:nth-child(3) a {
+            background-color: #f44336; 
+        }
+
+        nav ul li:nth-child(4) a {
+            background-color: #ff9800; 
+        }
+
+        nav ul li a:hover {
+            opacity: 0.7;
+        }
+    </style>
+
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
